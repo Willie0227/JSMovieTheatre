@@ -1,11 +1,11 @@
 let movies = [
 
-    'Movie1',
-    'Movie2',
-    'Movie3',
-    'Movie4',
-    'Movie5',
-    'Movie6'
+    'Advenger',
+    'Advenger',
+    'Advenger',
+    'Advenger',
+    'Advenger',
+    'Aladin'
 
 ]
 
@@ -15,7 +15,7 @@ let movieURL = [
     '<img src=\"https://images-na.ssl-images-amazon.com/images/I/A1inGqJJHXL._AC_SL1500_.jpg\" >',
     '<img src=\"https://images-na.ssl-images-amazon.com/images/I/A1inGqJJHXL._AC_SL1500_.jpg\" >',
     '<img src=\"https://images-na.ssl-images-amazon.com/images/I/A1inGqJJHXL._AC_SL1500_.jpg\" >',
-    '<img src=\"https://images-na.ssl-images-amazon.com/images/I/A1inGqJJHXL._AC_SL1500_.jpg\" >'
+    '<img src=\"https://images-na.ssl-images-amazon.com/images/I/91WNnQZdybL._AC_SL1500_.jpg\" >'
 
 ]
 
@@ -27,9 +27,9 @@ for ( i = 0; i < 6; i++) {
 }
 
 for (j = 0; j < 6; j++) {
-    document.querySelector("#mov"+j).innerHTML = "<img src=\"https://images-na.ssl-images-amazon.com/images/I/A1inGqJJHXL._AC_SL1500_.jpg\" >";
-
+    document.querySelector("#mov"+j).innerHTML = movieURL[j];
 }
+
 
 function add() {
 

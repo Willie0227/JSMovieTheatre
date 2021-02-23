@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    background-color: #a7c5eb;
 }
 
 h1 {
@@ -18,12 +19,15 @@ p {
 }
 
 .movieTitle {
-    border: solid 2px lightgray;
+    border: solid 3px lightgray;
     height: 40px;
     width: 520px;
     margin-bottom: 30px;
     text-align: center;
-
+    border-radius: 10px;
+    background-color: #709fb0;
+    color: black;
+    font-family: 'Patrick Hand', cursive;
 }
 
 .input2 {
@@ -33,15 +37,22 @@ p {
 
 
 .movieAddress {
-    border: solid 2px lightgray;
+    border: solid 3px lightgray;
     height: 40px;
     width: 520px;
     text-align: center;
+    border-radius: 10px;
+    background-color: #709fb0;
+    color: black;
+    font-family: 'Patrick Hand', cursive;
 
+}
+::placeholder {
+    color: black;
 }
 
 .Add {
-    background: lightgray;
+    background: black;
     color: white;
     height: 40px;
     width: 520px;
@@ -81,8 +92,17 @@ img {
     height: 100%;
 }
 
-.movie1, .movie2, .movie3, .movie4, .movie5, .movie6 div {
+.movie1, .movie2, .movie3, .movie4, .movie5, .movie6  {
 
     text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    margin-bottom: 20px;
+
+
+}
+
+.info0, .info1, .info2, .info3, .info4, .info5 {
+    margin-top: 20px;
+    font-family: 'Patrick Hand', cursive;
 
 }
